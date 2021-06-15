@@ -152,14 +152,14 @@ function menu() {
                 </div>
             </Layout>
             <hr></hr>
-            <div className="flex flex-row mt-20 bg-yellow-400 p-28">
+            <div className="flex flex-row mt-20 bg-yellow-400 p-10">
                 <div className="mt-14  bg-yellow-400 ">
                     <a href="/login" className="shadow-md text-xl px-28 py-5 leading-none border rounded text-black font-bold border-black hover:border-transparent hover:text-white hover:text-teal-500 hover:bg-black duration-75 mt-20">
                         Registrate Ahora</a>
                 </div>
                 <div className="w-max flex flex-col bg-yellow-400 ">
-                    <p className="text-6xl font-semibold ml-40"> Encuentra emprendimientos todos los dias !</p>
-                    <p className="text-7xl font-bold ml-40 animate-bounce">Empieza ahora</p>
+                    <p className="text-3xl font-semibold ml-40"> Encuentra emprendimientos todos los dias !</p>
+                    <p className="text-5xl font-bold ml-40 animate-bounce">Empieza ahora</p>
                 </div>
             </div>
         </div>
