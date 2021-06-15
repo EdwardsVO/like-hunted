@@ -17,20 +17,23 @@ const db = firebase.firestore()
 
 export const fetchLatestPost = () => {
     return db
-      .collection("posts")
-      .get()
-      .then(({ docs }) => {
-        return docs.map((doc) => {
-            const data = doc.data()
-            const id = doc.id
-            
-  
-  
-          return {
-            ...data,
-            id,
-           
-          }
+        .collection("posts")
+        .get()
+        .then(({ docs }) => {
+            return docs.map((doc) => {
+                const data = doc.data()
+                const id = doc.id
+
+
+
+                return {
+                    ...data,
+                    id,
+
+                }
+            })
         })
-      })
-    }
+}
+
+ 
+       
